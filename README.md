@@ -24,3 +24,15 @@
 
 ### Run script to create ~/.kube/config file
 ```./create-kubernetes.sh```
+
+
+--------------------------------------------------
+# General Kubernetes commands
+### Get eksctl version
+```eksctl version```
+
+### Delete nodegroup
+```eksctl delete nodegroup   --cluster <cluster_name>   --region <aws_region>   --name <name_of_nodegroup>```
+
+### List the node groups associated with cluster name
+aws eks list-nodegroups --cluster-name <cluster_name>
