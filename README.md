@@ -1,6 +1,6 @@
 # Kubernetes-Setup
 
-###Remove kubernetes created directory
+### Remove kubernetes created directory
 ```rm -r ~/.kube```
 
 ### Set vars associated with eks cluster
