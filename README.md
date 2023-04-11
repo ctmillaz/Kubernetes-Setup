@@ -20,7 +20,7 @@
 ```mkdir -p ~/.kube```
 
 ### Make sure create-kubenetes file is executeable
-```chmod +x create-kubernetes.sh```
+```chmod +x create-kubeconfig.sh```
 
 ### Run script to create ~/.kube/config file
-```./create-kubernetes.sh```
+```./create-kubeconfig.sh```
